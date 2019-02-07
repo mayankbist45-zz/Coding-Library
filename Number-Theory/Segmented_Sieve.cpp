@@ -50,6 +50,6 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	segmented_sieve(2,11);
+	segmented_sieve(100,200);
 	return 0;
 }
