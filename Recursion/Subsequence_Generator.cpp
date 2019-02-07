@@ -4,6 +4,7 @@
 using namespace std;
 
 void subSequences(char *in,char* out,int i,int j){
+	//Base Case
 	if(in[i]=='\0'){
 		out[j]='\0';
 		cout<<out<<",";
