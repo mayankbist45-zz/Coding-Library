@@ -55,10 +55,12 @@ bool solveSudoku(int mat[9][9],int i,int j,int n){
 			if(couldWeSolve)
 				return true;
 		}
+		
 	}
 
 	//Backtracking Occurs Here
 	mat[i][j] = 0;
+	
 	return false;
 }
 int main() {
