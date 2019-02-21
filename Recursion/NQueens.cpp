@@ -26,7 +26,7 @@ bool solveNQueen(int board[10][10],int i,int n,int &ans){
 int main() {
 	
 	int n;
-    cin>>n;
+    cin>>n;	
     int board[10][10]={0};
     int ans=0;
     solveNQueen(board,0,n,&ans);
