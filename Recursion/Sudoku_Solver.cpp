@@ -4,7 +4,7 @@
 using namespace std;
 
 bool canPlace(int mat[9][9],int i,int j,int n,int number){
-	//Validting for rows and columns
+	//Validating for rows and columns
 	for(int x=0;x<n;x++){
 		if(mat[x][j]==number||mat[i][x]==number)
 			return false;
