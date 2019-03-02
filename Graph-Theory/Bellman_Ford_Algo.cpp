@@ -29,7 +29,7 @@ void ford(){
 				}
 		if(!any)break;
 	}
-	//display d here
+	//display distances here
 	for(auto x:d){
 		cout<<x<<" ";
 	}
