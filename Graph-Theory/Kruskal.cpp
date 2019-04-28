@@ -56,8 +56,10 @@ int main() {
 
 
 	//Moving over the sorted edges for MST
+	int x = 1;
 	for (int i = 0; i < m; ++i)
 	{
+		if(x==n)break;
 		int a = g[i].second.first;
 		int b = g[i].second.second;
 
@@ -65,6 +67,7 @@ int main() {
 
 		if(find_set(a)!=find_set(b)){
 			wt += w;
+			x++;
 			res.push_back({a,b});
 			union_sets(a,b);
 		}
