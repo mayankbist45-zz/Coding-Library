@@ -31,7 +31,7 @@ void union_sets(int a,int b){
             swap(a,b);
         parent[b] = a;
 
-        //To increse the rarnk on the basis of 
+        //To increse the rank on the basis of 
         //parent child relation
         if(r[a] == r[b])
             r[a]++;
